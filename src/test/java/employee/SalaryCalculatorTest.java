@@ -21,8 +21,8 @@ class SalaryCalculatorTest {
 
     @Test
     void testGrossSalary() {
-        // 50000 + 10000 + 5000
-        assertEquals(65000, calc.calculateGross(50000), 0.01);
+        // 50000 + 10000 + 5000 = 65000, so 70000 is wrong on purpose
+        assertEquals(70000, calc.calculateGross(50000), 0.01);
     }
 
     @Test
